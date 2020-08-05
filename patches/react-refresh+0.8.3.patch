@@ -1,0 +1,14 @@
+diff --git a/node_modules/react-refresh/cjs/react-refresh-babel.development.js b/node_modules/react-refresh/cjs/react-refresh-babel.development.js
+index 36688a2..165039b 100644
+--- a/node_modules/react-refresh/cjs/react-refresh-babel.development.js
++++ b/node_modules/react-refresh/cjs/react-refresh-babel.development.js
+@@ -170,9 +170,6 @@ function ReactFreshBabelPlugin (babel) {
+                   } // Neither require nor import. Might be a HOC.
+                   // Pass through.
+ 
+-                } else if (calleeType === 'MemberExpression') ; else {
+-                  // More complicated call.
+-                  return false;
+                 }
+ 
+                 break;
